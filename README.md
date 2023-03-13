@@ -12,9 +12,9 @@ O projeto também inclui uma apresentação em PowerPoint para facilitar a compr
 
 Utilizando apenas PYTHON e as bibliotecas:
 
-Dash
-Dash-Core-Components
-Dash HTML
-Dash Bootstrap
-Plotly
-Pandas
+- Dash
+- Dash-Core-Components
+- Dash HTML
+- Dash Bootstrap
+- Plotly
+- Pandas
