@@ -1,6 +1,7 @@
 Projeto de Análise de Dados para uma Empresa de Call Center
 
 Este é um projeto de análise de dados desenvolvido para uma empresa de call center. 
+
 O objetivo principal é criar um dashboard interativo para visualização dos dados tratados e analisados, 
 permitindo a filtragem dos gráficos por meses e equipes.
 
