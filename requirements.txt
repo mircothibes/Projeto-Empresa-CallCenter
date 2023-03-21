@@ -1,0 +1,8 @@
+dash==2.8.1
+dash-bootstrap-components==1.4.0
+dash-bootstrap-templates==1.0.8
+app==0.0.1  
+plotly==5.13.0
+plotly-express==0.4.1
+pandas==1.5.3
+
