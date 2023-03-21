@@ -45,5 +45,6 @@ O servidor foi alterado do modo debug=True,  para: if __name__ == '__main__':
 Especificando a porta e host para o deploy                                                      
     
 
+
 LINK Gerado para visualização do Dashboard ==> https://dashboard-3bnpxawmfa-rj.a.run.app/
   
