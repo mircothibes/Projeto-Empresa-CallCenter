@@ -24,6 +24,7 @@ Utilizando apenas PYTHON e as bibliotecas:
 
 O Projeto também conta com o deploy para o Google Cloud Platform.
   
+  
   Fora criado mais 3 arquivos dentro do projeto para o deploy
     - requirements.txt
     Neste arquivo fora listadas todas as bibliotecas que o projeto necessitou, nomes e versões.
