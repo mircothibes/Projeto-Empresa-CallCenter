@@ -37,8 +37,11 @@ Neste aqruivo estão os dois comandos para o deploy, nestes comandos está o num
 com a ID do projeto criado e prontos para rodar via terminal, direto para o Google CLoud Run.
 
 Também foi alterada a pate final do projeto app.py, parte do Run Service.
-O servidor foi alterado do modo debug=True  para  if __name__ == '__main__':
+
+
+O servidor foi alterado do modo debug=True,  para: if __name__ == '__main__':
                                                       app.run_server(debug=False, host="0.0.0.0", port=8080)
+
 Especificando a porta e host para o deploy                                                      
     
 
