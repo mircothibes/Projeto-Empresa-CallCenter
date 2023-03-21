@@ -25,17 +25,21 @@ Utilizando apenas PYTHON e as bibliotecas:
 O Projeto também conta com o deploy para o Google Cloud Platform.
   
   
-Fora criado mais 3 arquivos dentro do projeto para o deploy
+Foram criados mais 3 arquivos dentro do projeto para o deploy
 - requirements.txt
 Neste arquivo fora listadas todas as bibliotecas que o projeto necessitou, nomes e versões.
     
 - Dockerfile
-Neste arquivo foi criado uma conteiner em docker com o projeto.
+Neste arquivo foi criado um conteiner em docker com o projeto mais o requirements.
     
 - README.md
-Neste aqruivo estão os dois comandos para o deploy, nestes comandos estao numero de ID do projeto criado na GCP, ambos os dois comandos estão especificados 
-com os ID's do projeto criado e prontos para rodarem atraves do terminal direto para o Google CLoud Run.
-    
+Neste aqruivo estão os dois comandos para o deploy, nestes comandos está o numero de ID do projeto criado na GCP, ambos os dois comandos estão especificados 
+com a ID do projeto criado e prontos para rodar via terminal, direto para o Google CLoud Run.
+
+-Tamém foi alterada a pate final do projeto app.py, parte do Run Service.
+O servidor foi alterado do modo debug=True  para  if __name__ == '__main__':
+                                                      app.run_server(debug=False, host="0.0.0.0", port=8080)
+Especificando a porta e host para o deploy                                                      
     
 LINK Gerado para visualização do Dashboard ==> https://dashboard-3bnpxawmfa-rj.a.run.app/
   
