@@ -151,7 +151,7 @@ app.layout = dbc.Container(children=[
                         ])
                     ], style={'margin-top': '10px'}),
                     dbc.Row([
-                        dbc.Button("Visite o Site", href="https://google.com/", target="_blank") # Texto = Box com botão para selecionar Web 
+                        dbc.Button("Visite o Site", href="https://datamind.dev.br/", target="_blank") # Texto = Box com botão para selecionar Web 
                     ], style={'margin-top': '10px'})
                 ])
             ], style=tab_card) # para ocupar 100% da coluna
