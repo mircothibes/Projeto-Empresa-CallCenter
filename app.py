@@ -3,6 +3,7 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
+import base64
 from dash import html, dcc, Input, Output, State
 from app import *
 from dash_bootstrap_templates import ThemeSwitchAIO # Bilblioteca para troca de Theme - modo dia/noite
@@ -129,6 +130,11 @@ def convert_to_text(month): # Criado funcão para selecionar todos os meses ou c
             x = 'Dezembro'
     return x
 
+
+# Carregando a imagem como um arquivo binário
+with open('C:\\Users\\User\\Desktop\\DataMind\\1.jpg', 'rb') as img_file:
+    encoded_image = base64.b64encode(img_file.read()).decode('utf-8')
+
 # =========  Layout  =========== #
 app.layout = dbc.Container(children=[
      # Row 1 - tamanho da coluna horizontal na tela
@@ -141,7 +147,7 @@ app.layout = dbc.Container(children=[
                             html.Legend("Análise Empresa") # Texto 
                         ], sm=8),
                         dbc.Col([        
-                            html.I(className='fa fa-balance-scale', style={'font-size': '300%'}) # Simbolo da Blança
+                            html.Img(src='data:image/jpg;base64,{}'.format(encoded_image), style={'width' : '150%', 'height' : '150%', 'display': 'block', 'margin-left': '-50px', 'display': 'flex', 'justify-content': 'flex-start'}) # Simbolo da Blança
                         ], sm=4, align="center")# tamanho quer irá ocupar dependendo da tela - Small and Align - mobile ou tela grande
                     ]),
                     dbc.Row([ 
