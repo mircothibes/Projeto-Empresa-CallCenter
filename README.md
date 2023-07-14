@@ -25,7 +25,8 @@ Utilizando apenas PYTHON e as bibliotecas:
 O Projeto também conta com o deploy para o Google Cloud Platform.
 
 #
-![image](https://github.com/mircothibes/Projeto-Empresa-CallCenter/assets/120477644/797a4079-624b-4526-bd98-45c4eee5ef0c)
+![image](https://github.com/mircothibes/Projeto-Empresa-CallCenter/assets/120477644/85757f4e-0708-46c3-9d07-f75c042b20c0)
+
 
   
   
