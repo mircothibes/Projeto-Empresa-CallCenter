@@ -48,6 +48,7 @@ O servidor foi alterado do modo debug=True,  para: if __name__ == '__main__':
                                                       app.run_server(debug=False, host="0.0.0.0", port=8080)
 
 Especificando a porta e host para o deploy 
+LINK Gerado para visualização do Dashboard ==> https://dashboard-3bnpxawmfa-rj.a.run.app/
 
 ---
 
@@ -60,5 +61,5 @@ Desenvolvido por Marcos Vinicius Thibes Kemer
     
 
 
-LINK Gerado para visualização do Dashboard ==> https://dashboard-3bnpxawmfa-rj.a.run.app/
+
   
