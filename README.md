@@ -47,7 +47,16 @@ Também foi alterada a pate final do projeto app.py, parte do Run Service.
 O servidor foi alterado do modo debug=True,  para: if __name__ == '__main__':
                                                       app.run_server(debug=False, host="0.0.0.0", port=8080)
 
-Especificando a porta e host para o deploy                                                      
+Especificando a porta e host para o deploy 
+
+---
+
+## Autor
+
+Desenvolvido por Marcos Vinicius Thibes Kemer
+
+---
+
     
 
 
